@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aire</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+                <ul >
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="acercade.html">Acerca de</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+        </nav>
+    </header>
+    <main class="mainaire">
+        <h2 class="h2agua">Toma de muestra de aire</h2>
+
+        <!-- Ingrsar la fecha de toma de muestra -->
+    <div class="fechainstructivo">
+        <div class="cajafecha"><h3>Ingrese la fecha</h3></div>
+        <div class="cajafecha2">
+        <form  action="submit" method="post"></form>
+        <label for="fecha">Ingrese una fecha:</label>
+            <input type="date" id="fecha" name="fecha" required>
+            <br><br></div>
+        </div>
+
+        <div class="Textoexplicativo">
+            <h4>Ingrese los datos obtenidos con a estacion metereologica</h4>
+            </div>
+
+    <!-- Seccion para que el operador ingrese los datos visualizados en el momento con la estacion metereologica -->
+    <section>
+        <h2 class="h2customparametros">Formulario de parametros</h2>
+
+        <section>
+            <div class="casillas">
+                <div class="casilla"><label for="velocidad">Velocidad de viento</label>
+                    <input type="text" name="velocidad" id="velocidad"></div>
+                <div class="casilla"><label for="direccion">Direccion del viento</label>
+                    <input type="text" name="direccion" id="direccion"></div>
+                <div class="casilla"><label for="condiciones">Condiciones atmosfericas</label>
+                    <input type="text" name="condiciones" id="condiciones"></div>   
+            </div>
+        </section>   
+
+        <div class="botonenviar">
+            <button type="button" class="btn btn-primary">Enviar</button>
+        </div>
+    
+        </main>
+        
+            <!-- Volver a la seccòn anterior -->
+            <section class="volversection">
+                <div class="voverlink"> <h3>Volver a la seccion anterior</h3>
+                    <a href="index.html">Seguir tomando muestras</a>
+                </div>
+                
+            </section>
+    
+    
+        <div class="footermatrices"><footer>
+            <p class="contactofooter"> Desarrollado por <a href="contacto.html">Julio Eller</a></p>
+        </footer>
+        </div>
+    
+    </body>
+    </html>

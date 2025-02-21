@@ -1,0 +1,317 @@
+*{
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+    background-color:rgba(251, 255, 200, 0) ;
+}
+
+.Textoexplicativo{
+    display: flex;
+    height: 5%;
+    background-color: rgba(255, 255, 255, 0.404);
+    padding: 10px;
+    border: 1px rgb(5, 5, 5) solid;
+    text-align: left;
+    margin: 10px;
+    flex-grow: 10;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.2rem
+}
+
+.tituloprincipal{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 50mp;
+    font-style: initial;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+
+.h2agua{
+    align-content: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30mp;
+    font-style: initial;
+    font-weight: bold;
+    text-transform: initial;
+    text-align: left;
+    padding: 20px;
+    background-color: rgba(2, 2, 2, 0.473);
+}
+
+h2{
+    align-content: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30mp;
+    font-style: initial;
+    font-weight: bold;
+    text-transform: initial;
+    text-align: left;
+    padding: 20px;
+    background-color: rgba(2, 2, 2, 0.473);
+}
+
+.h2customparametros{
+    align-content: center;
+    text-align: center;
+    color: azure;
+}
+
+h3{
+    color: black;
+    font-size: 1.5rem;
+    font-style: initial;
+    font-weight: bold;
+    text-transform: initial;
+    text-align: left;
+}
+
+
+
+.parrafoinstructivo{
+    display: flex;
+    background-color: #f0f8ff71;
+    flex-grow: 1 ;
+    align-items: center;
+    justify-content: center;
+    margin: 20px left; 
+    text-align: justify; 
+    font-size: 2rem;
+    padding: 10px;
+    border: solid 0.1px;
+    
+}
+
+.fechainstructivo{
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 2;
+    padding: 10px;
+    border: 1px rgb(0, 0, 0) solid;
+    text-align: center;
+}
+
+.cajafecha{
+    background-color: rgba(255, 255, 255, 0.445);
+    padding: 10px;
+    border: 1px rgb(0, 0, 0) solid;
+    text-align: center;
+    margin: 10px;
+    flex-grow: 10;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.2rem
+}
+
+.cajafecha2{
+    background-color:rgba(255, 255, 255, 0.445);
+    padding: 10px;
+    border: 1px rgb(0, 0, 0) solid;
+    text-align: left;
+    margin: 10px;
+    flex-grow: 10;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.2rem
+}
+
+.titulotipomuestra{
+    display: flex;
+    padding: 5px;
+    color: aliceblue;
+    justify-content: center;
+    border: rgb(0, 0, 0) solid 1;
+    margin: 2px;
+    flex-grow: 1;
+}
+
+.contenedordeopciones{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    padding: 50px;
+    gap: 20px;
+    justify-items: center;
+}
+
+
+.griditem{
+    background-color: #fafafa56;
+    list-style: none;
+    padding: 100px;
+    text-align: center;
+    border: solid 2px;
+    font-size: 150%;
+
+}
+
+.griditem a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+
+.nav-bar{
+    display: flex;
+    background-color: rgb(128, 204, 200);
+    justify-content: center;
+    border: solid 1px;
+
+}
+
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar li{
+    margin: 10px;
+    padding: 20px;
+
+}
+
+.nav-bar a{
+    color: black;
+    background-color: aliceblue;
+    font-size: 20px;
+    font-style: bold;
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+    border: solid 0.1px;
+}
+
+.acercade{
+    display: block;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    padding: 5%;
+    background-color: #008cba;
+    align-items:right;
+}
+
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Bacgrund de paginas */
+.principal {
+    background-image: url("https://regionnortegrande.com.ar/wp-content/uploads/2022/12/3-2.jpg");
+    background-size: cover
+    }
+
+
+.mainagua{
+    background-image: url("https://ageological.com/wp-content/uploads/2021/05/tomar-muestra-agua-estanque-comprobar-calidad-agua_328678-227.jpg");
+    background-size: cover
+}
+
+.mainsuelo{
+    background-image: url("https://tuagro.com/wp-content/uploads/2022/02/calicata.jpeg");
+    background-size: cover
+}
+
+.mainaire{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqKTQk5KhbEAc1f6M5M0qfrmIFBtSh25jLHD3Hv9i3zdyH1psdmSx7buuUncTzAbBWBBo&usqp=CAU");
+    background-size: cover
+}
+
+.maincontacto{
+    background-image: url("https://media.licdn.com/dms/image/v2/C4E16AQHU-M5j6ZOeOA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1605398036327?e=1745452800&v=beta&t=y-7rU6ghlRZ3nrPyNIEx8IV_kzUO085IfGLKbckzWGY");
+    background-size: cover
+}
+
+
+.casillas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 50px;
+    gap: 80px;
+    justify-items: center;
+}
+
+.casilla{
+    background-color: #ffffff56;
+    padding: 10%;
+    text-align: center;
+    border: solid 5px;
+    font-size: 150%;
+}
+
+.botonenviar{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    margin: 2px;
+    flex-grow: 1;;
+}
+
+.volversection{
+    display: flex;
+    background-color: rgb(0, 255, 234);
+    justify-content: center;
+}
+
+.volversection a{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    padding: 10%;
+    border: solid;
+
+}
+
+.footermatrices{
+    display: flex;
+    justify-content: right;
+    background-color: antiquewhite;
+}
+
+.footermatrices a{
+    text-decoration: none;
+    color: black;
+    font-size: 150%;
+    font-style: bold;
+}
+
+.imagenprofile{
+    display: flex;
+    justify-content: center;
+    flex-grow: initial;
+    padding: 2%;
+    border: solid;
+    background-color: rgb(224, 226, 96);
+    border-image: solid 1;
+}
+
+.introjeller{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    margin: 1%;
+    border: solid 0.1px;
+}
+
+.maincontacto{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.maincontacto a{
+    display: flex;
+    justify-content: center;
+}
