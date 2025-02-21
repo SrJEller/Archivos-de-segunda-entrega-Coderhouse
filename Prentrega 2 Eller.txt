@@ -1,0 +1,3 @@
+El proyecto aplica para los caloboradores de campo de una empresa minera. 
+
+Estas personas con una frecuencia predeterminada realizan la toma de muestras de distintas matrices (aire, agua y suelos). Por lo que el proyecto consiste en una app movil, que le permita introducir los parametros iniciales de la muestra tomada en el día. 
